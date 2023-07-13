@@ -11,8 +11,8 @@ describe("PartyPlanner", function () {
     const party1 = new PartyPlanner();
 
     expect(party1.guestList).to.eql([]);
-    expect(party1.throwParty).to.be.a("function");
-    expect(party1.addToGuestList).to.be.a("function");
+    expect(party1.throwParty).to.be.a("Function");
+    expect(party1.addToGuestList).to.be.a("Function");
   });
 
   describe("addToGuestList()", () => {
